@@ -13,7 +13,7 @@ var oldModel = '';
 var statues = [];
 
 // Load JSON file
-var url = '../json/statues.json';
+var url = './json/statues.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', url);
@@ -60,7 +60,7 @@ toggleInfoPanel.onclick = function() {
 modelSelection.onchange = function() { 
   var n = modelSelection.value;
   var loader = new THREE.JSONLoader();
-  var path = '../res/models/sekhmet-' + n + '.json';
+  var path = './res/models/sekhmet-' + n + '.json';
 
   loader.load(path, createModel);
 
@@ -69,8 +69,8 @@ modelSelection.onchange = function() {
       color: 0xffffff,
       specular: 0x222222,
       shininess: 25,
-      map: new THREE.TextureLoader().load('../res/tex/sekhmet-' + n +'-color.jpg'),
-      normalMap: new THREE.TextureLoader().load('../res/tex/sekhmet-' + n + '-normal.jpg'),
+      map: new THREE.TextureLoader().load('./res/tex/sekhmet-' + n +'-color.jpg'),
+      normalMap: new THREE.TextureLoader().load('./res/tex/sekhmet-' + n + '-normal.jpg'),
       normalScale: new THREE.Vector2(1, 1)
     });
 
