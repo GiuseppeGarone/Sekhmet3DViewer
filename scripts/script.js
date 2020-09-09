@@ -36,6 +36,14 @@ request.onload = function () {
   } else {
     console.log('Network request for statues.json failed with response ' + request.status + ': ' + request.statusText)
   }
+
+  // Popup message
+  swal('Select a model from dropdown menu', {
+    button: {
+      text: 'Close'
+    },
+    closeOnClickOutside: false,
+  });
 }
 
 // Start/stop animation button

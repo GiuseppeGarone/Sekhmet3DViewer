@@ -1,17 +1,18 @@
-# Sekhmet 3D
-This app is the final part of the project I did for MSc Thesis in Cinema and Media Engineer.
+# Sekhmet 3D Viewer
+This app is the project I did for my MSc Thesis in Cinema and Media Engineer. You can see a live demo here: https://giuseppegarone.github.io/sekhmet-3d-viewer/.
 
 ## Overview
-The goal of the whole project was to create low-poly 3D models and use them in an interactive context, such as a web app. The models are statues representing the Sekhmet goddess, and were 3D-scanned by the Turin's Museo Egizio. The project started with the optimization of the assets and ended with the development of a web viewer.
+The goal of the whole project was to create low-poly 3D models and use them in a real-time context. The models are statues representing the Sekhmet goddess, and were 3D-scanned by the Turin's Museo Egizio.
 
 ## How it works
-Use the dropdown list to choose the model you want to display. Once the model is loaded, you can rotate/pan/zoom the camera around it. You can switch to another model at any time. Two orange buttons allows to rotate the model and to toggle some information about the model.
+Use the dropdown list to choose the model you want to display. Once the model is loaded, you can rotate and zoom the camera around it. You can switch to another model at any time. Two orange buttons allows to rotate the model and to toggle some information about the model.
 
 ![image1](res/example.jpg "How it works")
 
 ## Technologies
-Blender is the main 3D DCC tool for 3D models editing (retopology, uv-mapping, baking... ). The web app is entirely based on Three.js library. Some data are fetched from a JSON file via XHR.
+Blender is the main 3D DCC tool used for 3D models editing (retopology, uv-mapping, baking... ). The web app is based on Three.js library.
 
-## Resources
+Useful links:
 * Blender: https://www.blender.org/
 * Three.js: https://threejs.org/
+* SweetAlert: https://sweetalert.js.org/

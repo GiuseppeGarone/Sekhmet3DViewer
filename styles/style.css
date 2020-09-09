@@ -13,6 +13,7 @@ canvas {
   width: 100%;
 }
 
+
 /* ----- HEADER ----- */
 .header {
   position: absolute;
@@ -52,6 +53,27 @@ canvas {
       margin-right: 0;
     }
 
+
+/* ----- POPUP ----- */
+.swal-modal {
+  background-color: #020202cc;
+  }
+  .swal-text {
+    color: #fff;
+    text-align: center;
+  }
+  .swal-footer {
+    text-align: center;
+  }
+  .swal-button {
+    background: #f4b254;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+
 /* ----- INFO PANEL ----- */
 .info-panel-wrapper {
   bottom: 0;
@@ -66,3 +88,4 @@ canvas {
     background-color: #020202cc;
     padding: 0.25em;
   }
+  
